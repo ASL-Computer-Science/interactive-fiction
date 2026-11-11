@@ -1,15 +1,47 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Interactive Fiction</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interactive Fiction | Story Gallery</title>
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #f6f7fb;
+      color: #202a39;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+    header { background: #183153; color: white; padding: 3rem 1.5rem; }
+    header .wrap, main { max-width: 900px; margin: 0 auto; }
+    h1 { margin: 0; font-size: clamp(2rem, 5vw, 3rem); line-height: 1.2; }
+    header p { margin: .7rem 0 0; color: #d7e5f7; }
+    main { padding: 2rem 1.5rem 4rem; }
+    .collection { margin-bottom: 2.5rem; }
+    h2 { border-bottom: 2px solid #d9e1ea; padding-bottom: .4rem; margin-bottom: 1rem; }
+    .story-list { padding: 0; margin: 0; list-style: none; display: grid; gap: .7rem; }
+    .story-list a {
+      display: block; padding: .85rem 1.1rem; background: white;
+      color: #164c84; border: 1px solid #d9e1ea; border-radius: 8px;
+      text-decoration: none; font-weight: 600;
+    }
+    .story-list a:hover, .story-list a:focus-visible {
+      background: #eaf2fb; text-decoration: underline; outline-offset: 3px;
+    }
+    .empty { color: #586579; }
+  </style>
 </head>
 <body>
-  <h1>Interactive Fiction</h1>
-  <p>A collection of interactive stories.</p>
-  <p>Student projects will appear here.</p>
+  <header>
+    <div class="wrap">
+      <h1>Interactive Fiction</h1>
+      <p>Explore interactive stories and classroom examples.</p>
+    </div>
+  </header>
+  <main>
+      <p class="empty">No published stories yet. Add a project folder containing an <code>index.html</code> and rerun this script.</p>
+  </main>
 </body>
 </html>
-
