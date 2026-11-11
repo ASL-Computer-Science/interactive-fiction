@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="The opera house entrance hall">
+<defs>
+  <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#263047"/><stop offset="1" stop-color="#746174"/></linearGradient>
+  <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#392b34"/><stop offset="1" stop-color="#0d0b14"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#ffe6a2" stop-opacity=".8"/><stop offset="1" stop-color="#ffe6a2" stop-opacity="0"/></radialGradient>
+  <pattern id="stripe" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M0 0L38 38" stroke="#ffe5aa" stroke-opacity=".045" stroke-width="3"/></pattern>
+</defs>
+<rect width="1200" height="525" fill="url(#wall)"/>
+<rect width="1200" height="525" fill="url(#stripe)"/>
+
+<rect x="0" y="352" width="1200" height="173" fill="url(#floor)"/>
+<path d="M0 352L600 265L1200 352" fill="#3e3343" stroke="#b1a18b" stroke-width="4"/>
+<path d="M0 525L550 350M1200 525L650 350M300 525L570 350M900 525L630 350" stroke="#a88c77" stroke-opacity=".32" stroke-width="4"/>
+<rect x="440" y="100" width="320" height="265" rx="150" fill="#1b2534" stroke="#d3b384" stroke-width="14"/>
+<rect x="463" y="123" width="274" height="242" rx="128" fill="#344154" stroke="#8e7b62" stroke-width="3"/>
+<path d="M600 124V355M463 260H737" stroke="#d2b78b" stroke-width="8"/>
+<path d="M0 110H440M760 110H1200" stroke="#c49e76" stroke-width="11"/>
+<g fill="#1b2635" stroke="#d6b98e" stroke-width="8"><rect x="80" y="65" width="132" height="290" rx="64"/><rect x="988" y="65" width="132" height="290" rx="64"/></g>
+<g fill="#e2bb78"><rect x="61" y="65" width="34" height="290"/><rect x="1105" y="65" width="34" height="290"/></g>
+<ellipse cx="600" cy="175" rx="170" ry="155" fill="url(#glow)"/>
+<path d="M600 0V80M540 85Q600 120 660 85M505 105Q600 150 695 105" stroke="#ebc888" stroke-width="7" fill="none"/>
+<g fill="#fff0bd"><circle cx="505" cy="109" r="9"/><circle cx="540" cy="95" r="10"/><circle cx="600" cy="108" r="11"/><circle cx="660" cy="95" r="10"/><circle cx="695" cy="109" r="9"/><circle cx="600" cy="150" r="15"/></g>
+<path d="M0 330Q165 250 390 315M1200 330Q1035 250 810 315" fill="none" stroke="#ceb18b" stroke-width="13"/>
+
+<rect width="1200" height="525" fill="none" stroke="#b59b6b" stroke-opacity=".2" stroke-width="10"/>
+</svg>
