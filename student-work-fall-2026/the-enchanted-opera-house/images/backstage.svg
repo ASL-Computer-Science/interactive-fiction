@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="Behind the opera curtain">
+<defs>
+  <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#222936"/><stop offset="1" stop-color="#554956"/></linearGradient>
+  <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#392b34"/><stop offset="1" stop-color="#0d0b14"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#ffe6a2" stop-opacity=".8"/><stop offset="1" stop-color="#ffe6a2" stop-opacity="0"/></radialGradient>
+  <pattern id="stripe" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M0 0L38 38" stroke="#ffe5aa" stroke-opacity=".045" stroke-width="3"/></pattern>
+</defs>
+<rect width="1200" height="525" fill="url(#wall)"/>
+<rect width="1200" height="525" fill="url(#stripe)"/>
+
+<rect x="0" y="385" width="1200" height="140" fill="url(#floor)"/>
+<path d="M0 0H280V525H0Z" fill="#322b3c"/><path d="M920 0H1200V525H920Z" fill="#292736"/>
+<g stroke="#a49a93" stroke-width="5"><path d="M80 0V390M120 0V390M165 0V390M1030 0V390M1080 0V390"/></g>
+<path d="M270 40H920V385H270Z" fill="#3b3446" stroke="#b5a087" stroke-width="8"/>
+<path d="M280 385L540 165L740 165L910 385" fill="#67505b"/>
+<rect x="475" y="110" width="260" height="280" fill="#222333" stroke="#a58d79" stroke-width="9"/>
+<path d="M475 385L605 185L735 385Z" fill="#7c5b5b"/>
+<ellipse cx="600" cy="200" rx="200" ry="210" fill="url(#glow)" opacity=".72"/>
+<rect x="130" y="312" width="290" height="24" fill="#8b6752"/><rect x="165" y="336" width="18" height="160" fill="#8b6752"/><rect x="370" y="336" width="18" height="160" fill="#8b6752"/>
+<rect x="235" y="250" width="90" height="62" rx="8" fill="#5e413b" stroke="#cfaf77" stroke-width="8"/><circle cx="281" cy="280" r="13" fill="#d8bf8d"/>
+<path d="M1000 130L1090 100L1150 175L1080 225Z" fill="#71707e" stroke="#c5b49f" stroke-width="7"/>
+<path d="M935 385H1200" stroke="#ba9974" stroke-width="9"/>
+<rect x="940" y="348" width="85" height="37" fill="#725447"/><rect x="1036" y="335" width="110" height="50" fill="#634d42"/>
+
+<rect width="1200" height="525" fill="none" stroke="#b59b6b" stroke-opacity=".2" stroke-width="10"/>
+</svg>

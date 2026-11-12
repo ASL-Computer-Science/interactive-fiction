@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="The red velvet opera auditorium">
+<defs>
+  <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#182036"/><stop offset="1" stop-color="#4d3648"/></linearGradient>
+  <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#392b34"/><stop offset="1" stop-color="#0d0b14"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#ffe6a2" stop-opacity=".8"/><stop offset="1" stop-color="#ffe6a2" stop-opacity="0"/></radialGradient>
+  <pattern id="stripe" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M0 0L38 38" stroke="#ffe5aa" stroke-opacity=".045" stroke-width="3"/></pattern>
+</defs>
+<rect width="1200" height="525" fill="url(#wall)"/>
+<rect width="1200" height="525" fill="url(#stripe)"/>
+
+<path d="M0 0Q130 140 195 345L0 525Z" fill="#772e45" stroke="#b46c66" stroke-width="13"/>
+<path d="M1200 0Q1070 140 1005 345L1200 525Z" fill="#772e45" stroke="#b46c66" stroke-width="13"/>
+<path d="M198 42H1002V355H198Z" fill="#251c31" stroke="#b89563" stroke-width="14"/>
+<path d="M245 48Q380 210 400 355H245ZM955 48Q820 210 800 355H955Z" fill="#8b344e"/>
+<path d="M400 55H800V350H400Z" fill="#584159"/>
+<ellipse cx="600" cy="210" rx="280" ry="250" fill="url(#glow)" opacity=".65"/>
+<rect x="210" y="355" width="780" height="18" fill="#bd9867"/>
+<path d="M0 525L330 360H870L1200 525Z" fill="#221b2c"/>
+<g fill="#823c53" stroke="#c39285" stroke-width="4">
+<path d="M40 490q50 -80 100 0v45H40Z"/><path d="M170 490q50 -80 100 0v45H170Z"/><path d="M300 490q50 -80 100 0v45H300Z"/><path d="M430 490q50 -80 100 0v45H430Z"/><path d="M560 490q50 -80 100 0v45H560Z"/><path d="M690 490q50 -80 100 0v45H690Z"/><path d="M820 490q50 -80 100 0v45H820Z"/><path d="M950 490q50 -80 100 0v45H950Z"/>
+<path d="M110 407q35 -50 70 0v30H110Z"/><path d="M280 407q35 -50 70 0v30H280Z"/><path d="M450 407q35 -50 70 0v30H450Z"/><path d="M620 407q35 -50 70 0v30H620Z"/><path d="M790 407q35 -50 70 0v30H790Z"/><path d="M960 407q35 -50 70 0v30H960Z"/>
+</g>
+<path d="M580 145L600 95L620 145V310H580Z" fill="#dbb77c" opacity=".55"/>
+
+<rect width="1200" height="525" fill="none" stroke="#b59b6b" stroke-opacity=".2" stroke-width="10"/>
+</svg>

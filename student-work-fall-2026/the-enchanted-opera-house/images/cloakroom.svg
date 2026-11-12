@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="An old-fashioned cloakroom">
+<defs>
+  <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#2c313f"/><stop offset="1" stop-color="#63585f"/></linearGradient>
+  <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#392b34"/><stop offset="1" stop-color="#0d0b14"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#ffe6a2" stop-opacity=".8"/><stop offset="1" stop-color="#ffe6a2" stop-opacity="0"/></radialGradient>
+  <pattern id="stripe" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M0 0L38 38" stroke="#ffe5aa" stroke-opacity=".045" stroke-width="3"/></pattern>
+</defs>
+<rect width="1200" height="525" fill="url(#wall)"/>
+<rect width="1200" height="525" fill="url(#stripe)"/>
+
+<rect y="375" width="1200" height="150" fill="url(#floor)"/>
+<rect x="100" y="82" width="1000" height="280" rx="15" fill="#292733" stroke="#b99e7d" stroke-width="13"/>
+<path d="M125 120H1075" stroke="#dfbc87" stroke-width="10"/>
+<g stroke="#c1a77e" stroke-width="6" fill="none"><path d="M215 125q0 25 -17 25h34"/><path d="M345 125q0 25 -17 25h34"/><path d="M475 125q0 25 -17 25h34"/><path d="M605 125q0 25 -17 25h34"/><path d="M735 125q0 25 -17 25h34"/><path d="M865 125q0 25 -17 25h34"/><path d="M995 125q0 25 -17 25h34"/></g>
+<g stroke="#9d8991" stroke-width="4"><path d="M180 145L155 195L165 345H255L265 195L240 145Z" fill="#7f5360"/><path d="M310 145L285 200L290 345H400L405 200L380 145Z" fill="#526a7b"/><path d="M440 145L420 190L415 345H535L530 190L510 145Z" fill="#77674f"/><path d="M570 145L550 205L555 345H655L660 205L640 145Z" fill="#7d586b"/><path d="M700 145L675 198L690 345H780L795 198L770 145Z" fill="#435b66"/><path d="M830 145L807 196L820 345H910L923 196L900 145Z" fill="#786459"/><path d="M960 145L938 192L950 345H1040L1052 192L1030 145Z" fill="#626277"/></g>
+<rect x="0" y="356" width="1200" height="94" rx="5" fill="#785647" stroke="#cba373" stroke-width="9"/>
+<path d="M0 400H1200" stroke="#34262b" stroke-width="7"/>
+<ellipse cx="600" cy="354" rx="43" ry="12" fill="#cbab73"/><path d="M580 350q20 -50 40 0" fill="#e7c78b" stroke="#a27d4d" stroke-width="5"/>
+<rect x="516" y="370" width="100" height="54" rx="2" fill="#d6c8ad" transform="rotate(-9 516 370)"/>
+
+<rect width="1200" height="525" fill="none" stroke="#b59b6b" stroke-opacity=".2" stroke-width="10"/>
+</svg>

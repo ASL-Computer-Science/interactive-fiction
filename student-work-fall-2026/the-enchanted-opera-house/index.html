@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#191824">
+  <title>After the Last Curtain — An Interactive Opera House</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">A SMALL INTERACTIVE WORLD</p>
+        <h1>After the Last Curtain</h1>
+      </div>
+      <button type="button" id="restartButton" class="restart-button">Start over</button>
+    </header>
+
+    <main class="room-card" aria-label="Current story location">
+      <div class="image-frame">
+        <img id="roomImage" alt="" width="1200" height="525">
+        <div class="image-shade"></div>
+        <div class="room-image-label" id="imageLabel">THE OPERA HOUSE</div>
+      </div>
+      <div class="room-body">
+        <div class="room-meta">
+          <span class="location-marker">CURRENT LOCATION</span>
+          <span id="roomCount" aria-label="Rooms visited"></span>
+        </div>
+        <h2 id="roomTitle"></h2>
+        <section id="story" class="story-text" aria-label="Story text" aria-live="polite" aria-relevant="additions"></section>
+        <div id="controls" class="controls" aria-label="Story controls"></div>
+      </div>
+    </main>
+
+    <footer class="app-footer">
+      <span>Explore the rooms. Each location tells its story one paragraph at a time.</span>
+      <span>Made with HTML, CSS &amp; JavaScript</span>
+    </footer>
+  </div>
+</body>
+</html>
