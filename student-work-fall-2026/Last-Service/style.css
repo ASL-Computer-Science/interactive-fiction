@@ -1,0 +1,136 @@
+/* The whole page: dark like a station at night */
+body {
+	font-family: Georgia, serif;
+	font-size: 1.1rem;
+	max-width: 600px;
+	margin: 60px auto;
+	padding: 30px;
+	background-color: #11141c;
+	color: #e4e4e4;
+	line-height: 1.7;
+	border: 1px solid #2a3142;
+	border-radius: 8px;
+}
+
+/* The heading looks like a yellow station sign */
+h1 {
+	font-family: "Courier New", monospace;
+	font-size: 1.6rem;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #11141c;
+	background-color: #f3c53c;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 30px;
+}
+
+/* Bold words glow yellow, italic words go grey */
+strong {
+	color: #f3c53c;
+}
+
+em {
+	color: #aab2c5;
+}
+
+/* Choices start as outlines and fill in when you hover */
+.choice {
+	display: block;
+	margin-top: 12px;
+	padding: 12px 16px;
+	font-size: 1rem;
+	color: #f3c53c;
+	background-color: transparent;
+	border: 2px solid #f3c53c;
+	border-radius: 6px;
+	text-decoration: none;
+	transition: background-color 0.2s, color 0.2s;
+}
+
+.choice:hover {
+	color: #11141c;
+	background-color: #f3c53c;
+}
+
+/* The Begin button on the cover page looks the same as the other choices */
+button.choice {
+	width: 100%;
+	box-sizing: border-box;
+	text-align: left;
+	font-family: Georgia, serif;
+	cursor: pointer;
+}
+
+/* The name box on the cover page */
+label {
+	display: block;
+	margin-top: 30px;
+	color: #aab2c5;
+}
+
+input {
+	width: 100%;
+	box-sizing: border-box;
+	margin-top: 6px;
+	padding: 10px;
+	font-size: 1.1rem;
+	font-family: Georgia, serif;
+	color: #e4e4e4;
+	background-color: #1c2130;
+	border: 2px solid #2a3142;
+	border-radius: 6px;
+}
+
+/* The player's name shows up gold in the story */
+#name {
+	color: #f3c53c;
+}
+
+/* The ending message */
+.end {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	color: #d9614f;
+	border-top: 1px dashed #2a3142;
+	border-bottom: 1px dashed #2a3142;
+	padding: 10px;
+	margin-top: 30px;
+}
+
+/* Pictures fill the width of the page */
+img {
+	width: 100%;
+	border-radius: 6px;
+	margin-bottom: 10px;
+}
+
+/* index.html: the outer page that holds the music and the story window */
+.frame-page {
+	max-width: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-align: center;
+}
+
+/* The music player sits in a bar across the top */
+audio {
+	width: 600px;
+	max-width: 90%;
+	margin-top: 12px;
+	color-scheme: dark;
+}
+
+/* The story window fills the rest of the screen, under the player */
+iframe {
+	position: fixed;
+	top: 76px;
+	left: 0;
+	width: 100%;
+	height: calc(100% - 76px);
+	border: none;
+	border-top: 1px solid #2a3142;
+}

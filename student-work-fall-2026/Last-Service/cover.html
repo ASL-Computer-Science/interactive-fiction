@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Last Service</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>Last Service</h1>
+
+	<img src="index.jpg" alt="A station arrivals board at night showing the 02:37 from Lille has arrived">
+
+	<p>You fell asleep on the train. Now you have to find your way home.</p>
+
+	<label for="name-box">What's your name?</label>
+	<input type="text" id="name-box">
+
+	<button class="choice" onclick="saveName()">Begin</button>
+
+	<script>
+		function saveName() {
+			let name = document.getElementById("name-box").value;
+			localStorage.setItem("name", name);
+			window.location.href = "start.html";
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Last Service</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>Towpath</h1>
+
+	<img src="towpath.jpg" alt="A woman in a coat over pyjamas on a path by a church, her dog sitting beside her">
+
+	<p>There's a woman out there in a coat thrown over pyjamas, walking a dog that has no interest in walking.</p>
+
+	<p>"You slept past the change, <span id="name"></span>," she says. Not a question. How does she know your name?</p>
+
+	<p>The dog sits down in the middle of the path and refuses to move.</p>
+
+	<a class="choice" href="her-brother.html">Ask about the path behind the church</a>
+	<a class="choice" href="directions.html">Ask how to get back into the city</a>
+
+	<script>
+		document.getElementById("name").textContent = localStorage.getItem("name");
+	</script>
+</body>
+</html>
